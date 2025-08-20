@@ -3,6 +3,8 @@ import '@/styles/global.css';
 import { baseUrl } from '@/utils/functions';
 const title = 'Wave with Simplex Noise';
 const favicon = baseUrl('/assets/favicon.webp');
+const js29a = baseUrl('/assets/scripts/29a.ch.js')
+const cssextern = baseUrl('/assets/styles/style.css')
 ---
 
 <!doctype html>
@@ -10,7 +12,7 @@ const favicon = baseUrl('/assets/favicon.webp');
   <head>
     <meta charset='UTF-8' />
     <meta name='viewport' content='width=device-width' />
-    <link rel='stylesheet' href='/assets/styles/style.css' />
+    <link rel='stylesheet' href={cssextern} />
     <link rel='icon' type='image/svg+xml' href={favicon} />
     <meta name='google' content='notranslate' />
     <title>{title}</title>
@@ -20,6 +22,6 @@ const favicon = baseUrl('/assets/favicon.webp');
     <script>
       import '../typescript/main.ts';
     </script>
-    <script is:inline src='/assets/scripts/29a.ch.js'></script>
+    <script is:inline src={js29a}></script>
   </body>
 </html>
