@@ -1,0 +1,6 @@
+- **Reference / Inspiration ⬇️**
+  - [Code Inspirationb from This repo, Thanks to @jwagner](https://github.com/jwagner/simplex-noise-demo-synthwave/)
+  - [Original Demo](https://29a.ch/sandbox/2022/simplex-noise-synthwave/)
+  - [main.ts](./main.ts) and [renderer.ts](./renderer.ts) to start digging through the code.
+  - Music *"Voxel Revolution"* — [Kevin MacLeod (incompetech.com)](https://incompetech.com/)  
+  - Licensed under Creative Commons: [By Attribution 4.0 License](http://creativecommons.org/licenses/by/4.0/)
