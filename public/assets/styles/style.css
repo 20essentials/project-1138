@@ -50,12 +50,12 @@ body {
 }
 
 #volume {
-  background-image: url(/assets/images/volume_up.svg);
+  background-image: url(../images/volume_up.svg);
   background-size: cover;
   cursor: pointer;
 
   &.on {
-    background-image: url(/assets/images/volume_off.svg);
+    background-image: url(../images/volume_off.svg);
   }
 }
 
@@ -64,5 +64,5 @@ body {
   font-family: 'Racing Sans One';
   font-style: normal;
   font-weight: 400;
-  src: url(/assets/fonts/RacingSansOne.woff2) format('woff2');
+  src: url(../fonts/RacingSansOne.woff2) format('woff2');
 }
